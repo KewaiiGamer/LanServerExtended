@@ -56,5 +56,8 @@ public class Main
         e.registerServerCommand(new LSECommandBanIp());
         e.registerServerCommand(new LSECommandPardonPlayer());
         e.registerServerCommand(new LSECommandPardonIp());
+        e.registerServerCommand(new LSECommandWhitelist());
+        e.registerServerCommand(new LSECommandMessage());
+        e.registerServerCommand(new LSECommandBroadcast());
     }
 }
