@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lse",
+  "name": "Lan Server Extended",
+  "description": "Improves Lan Servers Usage by adding more commands and features.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["KewaiiGamer"],
+  "credits": "The Forge and FML guys, for making forge. Paint for the logo",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

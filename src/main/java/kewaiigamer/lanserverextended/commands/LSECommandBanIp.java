@@ -1,0 +1,17 @@
+package kewaiigamer.lanserverextended.commands;
+
+import net.minecraft.command.ICommandSender;
+import net.minecraft.command.server.CommandBanIp;
+import net.minecraft.entity.player.EntityPlayer;
+
+
+public class LSECommandBanIp extends CommandBanIp {
+    @Override
+    public boolean canCommandSenderUseCommand(ICommandSender p_71519_1_)
+    {
+        return p_71519_1_.canCommandSenderUseCommand(this.getRequiredPermissionLevel(), this.getCommandName());
+    }
+
+
+
+}
