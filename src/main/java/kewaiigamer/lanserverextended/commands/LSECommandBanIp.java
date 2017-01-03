@@ -7,9 +7,9 @@ import net.minecraft.entity.player.EntityPlayer;
 
 public class LSECommandBanIp extends CommandBanIp {
     @Override
-    public boolean canCommandSenderUseCommand(ICommandSender p_71519_1_)
+    public boolean canCommandSenderUseCommand(ICommandSender commandSender)
     {
-        return p_71519_1_.canCommandSenderUseCommand(this.getRequiredPermissionLevel(), this.getCommandName());
+        return commandSender.canCommandSenderUseCommand(this.getRequiredPermissionLevel(), this.getCommandName());
     }
 
 

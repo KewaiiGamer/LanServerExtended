@@ -10,7 +10,7 @@ public class LSECommandListPlayers extends CommandListPlayers {
         return 4;
     }
     @Override
-    public boolean canCommandSenderUseCommand(ICommandSender playerSender) {
-        return playerSender instanceof EntityPlayer;
+    public boolean canCommandSenderUseCommand(ICommandSender commandSender) {
+        return commandSender instanceof EntityPlayer;
     }
 }
