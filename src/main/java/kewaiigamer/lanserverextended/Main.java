@@ -17,7 +17,7 @@ public class Main
 {
     public static final String MODID = "lse";
     public static final String MODNAME = "LanServerExtended";
-    public static final String VERSION = "Release 1";
+    public static final String VERSION = "Release 2";
     public static final String COMMON_PROXY_CLASS = "kewaiigamer.lanserverextended.CommonProxy";
     public static final String CLIENT_PROXY_CLASS = "kewaiigamer.lanserverextended.ClientProxy";
 
