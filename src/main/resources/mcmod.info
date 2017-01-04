@@ -5,10 +5,10 @@
   "description": "Improves Lan Servers Usage by adding more commands and features.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://minecraft.curseforge.com/projects/lanserverextended",
   "updateUrl": "",
   "authorList": ["KewaiiGamer"],
-  "credits": "The Forge and FML guys, for making forge. Paint for the logo",
+  "credits": "The Forge and FML guys, for making forge.",
   "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
