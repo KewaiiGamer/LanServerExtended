@@ -1,2 +1,5 @@
-[![GitHub commits](https://img.shields.io/github/commits-since/SubtitleEdit/subtitleedit/3.4.7.svg)](https://github.com/KewaiiGamer/LanServerExtended)
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/KewaiiGamer/LanServerExtended/tree/master/src/main/java/kewaiigamer/lanserverextended)
+[![Version 1.7.10 Status](https://img.shields.io/badge/1.7.10-Version%20Release%202-brightgreen.svg)
+
+[![Version 1.10.2 Status](https://img.shields.io/badge/1.10.2-Not%20Available-red.svg)]
+
+[![Version 1.11.2 Status](https://img.shields.io/badge/1.11.2-Not%20Available-red.svg)
