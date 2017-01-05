@@ -18,7 +18,7 @@ public class Main
 {
     public static final String MODID = "lse";
     public static final String MODNAME = "LanServerExtended";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     public static final String COMMON_PROXY_CLASS = "kewaiigamer.lanserverextended.CommonProxy";
     public static final String CLIENT_PROXY_CLASS = "kewaiigamer.lanserverextended.ClientProxy";
 
@@ -27,8 +27,6 @@ public class Main
 
     @SidedProxy(serverSide = COMMON_PROXY_CLASS, clientSide = CLIENT_PROXY_CLASS)
     public static CommonProxy proxy = new CommonProxy();
-
-
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
@@ -43,11 +41,9 @@ public class Main
     @EventHandler
     public void postInit(FMLPostInitializationEvent e) {
         Main.proxy.postInit(e);
-
     }
     @EventHandler
     public void serverLoad(FMLServerStartingEvent e) {
-
         e.registerServerCommand(new CommandOp());
         e.registerServerCommand(new CommandDeOp());
         e.registerServerCommand(new CommandServerKick());
@@ -60,5 +56,6 @@ public class Main
         e.registerServerCommand(new LSECommandWhitelist());
         e.registerServerCommand(new LSECommandMessage());
         e.registerServerCommand(new LSECommandBroadcast());
+        e.registerServerCommand(new LSECommandClearInventory());
     }
 }
