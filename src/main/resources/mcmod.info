@@ -6,9 +6,9 @@
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
-  "updateUrl": "",
+  "updateUrl": "https://minecraft.curseforge.com/projects/lanserverextended",
   "authorList": ["KewaiiGamer"],
-  "credits": "The Forge and FML guys, for making forge. Paint for the logo",
+  "credits": "gegi1000 for the logo",
   "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []

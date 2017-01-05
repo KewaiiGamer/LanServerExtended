@@ -1,9 +1,9 @@
 package kewaiigamer.lanserverextended.commands;
 
+import net.minecraft.command.CommandClearInventory;
 import net.minecraft.command.ICommandSender;
-import net.minecraft.command.server.CommandWhitelist;
 
-public class LSECommandWhitelist extends CommandWhitelist {
+public class LSECommandClearInventory extends CommandClearInventory {
 
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender commandSender) {
