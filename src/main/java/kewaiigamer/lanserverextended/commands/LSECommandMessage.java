@@ -7,7 +7,7 @@ import net.minecraft.server.MinecraftServer;
 public class LSECommandMessage extends CommandMessage {
 
     @Override
-    public boolean checkPermission(MinecraftServer server, ICommandSender commandSender)    {
+    public boolean checkPermission(MinecraftServer server, ICommandSender commandSender) {
         return commandSender.canCommandSenderUseCommand(this.getRequiredPermissionLevel(), this.getCommandName());
     }
 }

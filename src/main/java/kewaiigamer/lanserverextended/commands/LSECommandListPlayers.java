@@ -13,7 +13,7 @@ public class LSECommandListPlayers extends CommandListPlayers {
     }
 
     @Override
-    public boolean checkPermission(MinecraftServer server, ICommandSender commandSender)  {
+    public boolean checkPermission(MinecraftServer server, ICommandSender commandSender) {
         return commandSender instanceof EntityPlayer;
     }
 }

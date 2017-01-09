@@ -10,6 +10,4 @@ public class LSECommandBanPlayer extends CommandBanPlayer {
     public boolean checkPermission(MinecraftServer server, ICommandSender commandSender) {
         return commandSender.canCommandSenderUseCommand(this.getRequiredPermissionLevel(), this.getCommandName());
     }
-
-
 }

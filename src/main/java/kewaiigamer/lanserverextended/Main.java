@@ -12,10 +12,9 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
-
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION, acceptedMinecraftVersions = "[1.10,1.11.2]")
-public class Main
-{
+public class Main {
+
     public static final String MODID = "lse";
     public static final String MODNAME = "LanServerExtended";
     public static final String VERSION = "1.1";
@@ -42,6 +41,7 @@ public class Main
     public void postInit(FMLPostInitializationEvent e) {
         Main.proxy.postInit(e);
     }
+
     @EventHandler
     public void serverLoad(FMLServerStartingEvent e) {
         e.registerServerCommand(new CommandOp());

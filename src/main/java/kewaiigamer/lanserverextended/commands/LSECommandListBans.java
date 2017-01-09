@@ -4,7 +4,6 @@ import net.minecraft.command.ICommandSender;
 import net.minecraft.command.server.CommandListBans;
 import net.minecraft.server.MinecraftServer;
 
-
 public class LSECommandListBans extends CommandListBans {
 
     @Override
