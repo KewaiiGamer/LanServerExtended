@@ -2,12 +2,12 @@ package com.kewpanel.lanserverextended.commands;
 
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
-import net.minecraft.command.server.CommandOp;
+import net.minecraft.command.server.CommandDeOp;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 
-public class LSECommandOP extends CommandOp {
+public class LSECommandDeOp extends CommandDeOp {
 
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
